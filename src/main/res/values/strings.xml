@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TheftProtection</string>
+    <string name="submit">Submit</string>
+    <string name="Signout" />
+
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="registered_devices">Registered Deviced</string>
+    <string name="userdet_name">Name</string>
+    <string name="userdet_email">Email</string>
+    <string name="userdet_altemail">Alternate Email</string>
+    <string name="userdet_phone">Phone</string>
+    <string name="ticker_text">Phone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

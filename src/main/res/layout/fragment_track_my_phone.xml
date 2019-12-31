@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.TrackMyPhone">
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/buttonSendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message" />
+
+    <Button
+        android:id="@+id/buttonstopUpdateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Update Location" />
+
+
+    <Button
+        android:id="@+id/ButtonTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapViewTrack"
+        android:layout_width="match_parent"
+        android:layout_height="319dp" />
+</LinearLayout>
